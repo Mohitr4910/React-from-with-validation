@@ -1,0 +1,40 @@
+
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h2{
+    text-align: center;
+}
+
+form{
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 300px;
+    height: 560px;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: rgba(207, 207, 214, 0.316);
+}
+form input{
+      width: 90%;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+p{
+    margin-bottom: 0;
+    font-size: 16;
+    font-weight:bolder;
+}
+
+button{
+    padding: 8px;
+   position: relative;
+   left: 120px;
+   border: 1px solid black;
+   border-radius: 5px;
+}
